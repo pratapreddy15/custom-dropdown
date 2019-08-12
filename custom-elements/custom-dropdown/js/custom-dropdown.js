@@ -5,7 +5,7 @@ const template1 = document.createElement("template");
 
 template1.innerHTML = 
     `
-        <link rel="stylesheet" href="custom-elements/css/custom-dropdown.css">
+        <link rel="stylesheet" href="custom-elements/custom-dropdown/css/custom-dropdown.css">
 
         <div class="dropdown">
             <div class="button-container">
