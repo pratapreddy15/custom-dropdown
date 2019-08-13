@@ -46,6 +46,7 @@ button {
 
 .dropdown-list-container {
     position: relative;
+    z-index: 99999;
 }
 
 .dropdown-list {

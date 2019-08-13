@@ -1,9 +1,9 @@
 
 'use strict';
 
-const template1 = document.createElement("template");
+const dropdownTemplate = document.createElement("template");
 
-template1.innerHTML = 
+dropdownTemplate.innerHTML = 
     `
         <link rel="stylesheet" href="custom-elements/custom-dropdown/css/custom-dropdown.css">
 
@@ -24,7 +24,7 @@ class Dropdown extends HTMLElement {
         super();
 
         this._sR = this.attachShadow({ mode: "open" });
-        this._sR.appendChild(template1.content.cloneNode(true));
+        this._sR.appendChild(dropdownTemplate.content.cloneNode(true));
 
         this.open = false;
 

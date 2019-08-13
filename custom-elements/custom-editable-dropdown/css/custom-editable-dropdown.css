@@ -1,0 +1,119 @@
+:host {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.editable-dropdown {
+    padding-left: 8px;
+}
+
+.textbox-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+input {
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    outline: none;
+    text-align: center;
+
+    width: 100%;
+    height: 2rem;
+}
+
+.dropdown-list-container {
+    position: relative;
+    z-index: 99999;
+}
+
+.dropdown-list {
+    position: absolute;
+    width: 25%;
+    max-height: 0;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7E9;
+    border: 1px solid #a1a1a1;
+    list-style: none;
+    visibility: hidden;
+}
+
+.dropdown-list li.selected {
+    background-color: #5D6D7E;
+}
+
+.dropdown-list.close {
+    animation-name: slideUp;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.dropdown-list.open {
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+
+    animation-name: slideDown;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.dropdown-list li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 7px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    right: 8px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    width: 13px;
+    height: 13px;
+    transition: all 0.3s ease;
+}
+
+.arrow-down {
+    transform: rotate(45deg);
+}
+
+.arrow-up {
+    transform: rotate(-135deg);
+}
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        visibility: hidden;
+    } to {
+        max-height: 200px;
+        visibility: visible;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        max-height: 200px;
+        visibility: visible;
+    } to {
+        max-height: 0;
+        visibility: hidden;
+    }
+}
