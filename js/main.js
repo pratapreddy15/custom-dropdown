@@ -2,7 +2,7 @@
 "use strict";
 
 const hrithikWiki = 
-  `<div class="photo" style="height: 200px; background-image: url(images/hrithik_wikipedia_200.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed;"></div>
+  `<div class="photo" style="height: 200px; background-image: url(images/hrithik_wikipedia_200.jpg); background-repeat: no-repeat; background-position: top;"></div>
   
   <p>Hrithik Roshan is an Indian actor who appears in Bollywood films. 
   He has portrayed a variety of characters and is known for his dancing skills. One of the highest-paid actors in India, he has won many awards, 
@@ -17,7 +17,7 @@ const hrithikWiki =
   <p><a href="https://en.wikipedia.org/wiki/Hrithik_Roshan" target="_blank">Source</a></p>`;
 
 const vidyutWiki = 
-  `<div class="photo" style="height: 200px; background-image: url(images/vidyut_wikipedia_200.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed;"></div>
+  `<div class="photo" style="height: 200px; background-image: url(images/vidyut_wikipedia_200.jpg); background-repeat: no-repeat; background-position: top;"></div>
   
   <p>Vidyut Jammwal (Born 10 December 1980 in Jammu, Jammu and Kashmir) is an Indian film actor, martial artist, and stunt performer, who predominantly 
   works in Hindi films. He is a trained martial artist, having learnt the Indian martial art of Kalaripayattu since the age of three. He is popularly known as 
@@ -33,7 +33,7 @@ const vidyutWiki =
   <p><a href="https://en.wikipedia.org/wiki/Vidyut_Jammwal" target="_blank">Source</a></p>`;
 
 const siddharthWiki = 
-  `<div class="photo" style="height: 200px; background-image: url(images/siddharth_wikipedia_200.jpg); background-repeat: no-repeat; background-position: center; background-attachment: fixed;"></div>
+  `<div class="photo" style="height: 200px; background-image: url(images/siddharth_wikipedia_200.jpg); background-repeat: no-repeat; background-position: top;"></div>
   
   <p>Siddharth Nigam is an Indian actor, who works in Indian television and films and is known for his roles of Sahir/Samar in Dhoom 3 
   and Ashoka in Chakravartin Ashoka Samrat. He is currently seen as Aladdin in Sab TV's Aladdin—Naam Toh Suna Hoga.</p>
@@ -43,6 +43,23 @@ const siddharthWiki =
   He has an elder brother (Abhishek Nigam) and his mother runs an NGO and a beauty parlour.</p>
 
   <p>Nigam started off as a gymnast. He was selected on the national-level gymnastics, where he won a gold medal.</p>
+
+  <p>Nigam started his acting career in 2011 by appearing in a Bournvita advertisement. After watching him in advertisement, makers of the film Dhoom 3 
+  called him for an audition to play the Young Sahir/Samar. The film was directed by Vijay Krishna Acharya, and it was released on 20 December 2013. 
+  Taran Adarsh of the entertainment portal Bollywood Hungama reviewed, "Siddharth Nigam is a talent to watch out for. He's superb!" Writing for India Today 
+  Suhani Singh said, "He lights up the screen with his self-assured performance and charming presence."</p>
+
+  <p>After his successful debut in film, he debuted on television with the role of Young Rudra in the mythological drama series Maha Kumbh: Ek Rahasaya, Ek Kahani.
+  The show aired on 15 December 2014 on Life Ok television.</p>
+
+  <p>In February 2015, Nigam was seen in the historical drama series Chakravartin Ashoka Samrat where he played the lead role of Young Ashoka. 
+  For his performance in the series, he received fame and critical acclaim, and won Zee Gold Award for Best Actor Debut - Male, Television Style Awards for 
+  Most Stylish Debut - Male, Lions Gold Awards and Indian Telly Awards for Best Child Actor - male, Indian Television Academy Award 2015 for Desh Ka Ladla.
+  In 2016 he won Golden Petal Awards for Favourite Child Actor.</p>
+
+  <p>On 15 February 2015, Nigam appeared as a guest in a special Mahashivratri episode on K9 Productions comedy/talk series Comedy Nights with Kapil. 
+  In 2016, he was seen in Jhalak Dikhhla Jaa 9 as a contestant and later as Young Shivaji in Peshwa Bajirao. In 2017, he portrayed the character of 
+  Bindusara in Chandra Nandini. Currently he is seen as Aladdin in Sab TV's Aladdin—Naam Toh Suna Hoga.</p>
   
   <p><a href="https://en.wikipedia.org/wiki/Siddharth_Nigam" target="_blank">Source</a></p>`;
 
